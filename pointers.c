@@ -24,7 +24,8 @@ int main(int argc, char *argv[]) {
     printf("Size of INT datatype: %lu\n", sizeof(int));
     int a[ARRAY_SIZE];      //assign a pointer
     int i;                  //iterator
-    int *q = a;
+    int *q = a;             //"a" is a pointer to the first address in
+                            //a series of integers
 
     //Set 5 consecutive locations in memory to
     //0, 1, 2, 3, 4 respectively.
