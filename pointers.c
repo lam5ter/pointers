@@ -9,7 +9,7 @@
 //Constants
 #define ARRAY_SIZE 5
 
-int main(int argc, char *argv[]) {
+int main() {
 
     int x = 10;                 //assign an integer value to a variable
     int *p = &x;                //create a pointer to the address of x
