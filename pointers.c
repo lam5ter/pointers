@@ -25,13 +25,14 @@ int main(int argc, char *argv[]) {
     int a[ARRAY_SIZE];      //assign a pointer
     int i;                  //iterator
     int *q = a;
+
     //Set 5 consecutive locations in memory to
     //0, 1, 2, 3, 4 respectively.
     for (i = 0; i < ARRAY_SIZE; i++) {
         *q = i;
         q++;
     }
-    //Lines 30-33 can be replaced by the following line
+    //Lines 31-34 can be replaced by the following line
     //for (i = 0; i < ARRAY_SIZE; i++) a[i] = i;
     for (i = 0; i < ARRAY_SIZE; i++)
         printf("At the address %p -> a[%d] = %d\n", &a[i], i, a[i]);
