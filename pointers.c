@@ -31,7 +31,7 @@ int main(int argc, char *argv[]) {
         *q = i;
         q++;
     }
-    //Lines 18-22 can be replaced by the following line
+    //Lines 30-33 can be replaced by the following line
     //for (i = 0; i < ARRAY_SIZE; i++) a[i] = i;
     for (i = 0; i < ARRAY_SIZE; i++)
         printf("At the address %p -> a[%d] = %d\n", &a[i], i, a[i]);
